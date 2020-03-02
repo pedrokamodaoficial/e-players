@@ -11,7 +11,8 @@
 }
 body{
     background-color: var(--background);
-    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    height: 10000px;
 }
 .gradient{
     background: rgba(213,55,155,1);
@@ -24,7 +25,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5379b', endColorstr='#7277c3', GradientType=1 );
 }
 .container{
-    width: 80%px;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -50,4 +51,47 @@ ul{
     display: flex;
     justify-content: space-around;
 
+}
+
+.banner{
+   width: 100%;
+    height: 400px;
+    background-image: url("../img/meta_mundo.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 12px;
+}
+.banner .btn{
+    margin-top:100px; 
+}
+.sobre{
+    background-image: url("../img/Teams/T6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    width: 100%;
+    min-height: 350px;
+    margin: 20px 0;
+    padding: 100px 0;
+    color: white;
+}
+.sobre .container{
+    display: flex;
+}
+.sobre .container div{
+    width: 40%;
+}
+.campea{
+    position: absolute;
+    right: 15%;
+    top: 470px;
 }
