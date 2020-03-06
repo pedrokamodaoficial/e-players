@@ -115,7 +115,7 @@ ul{
     color: white;
     padding: 0 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .partida img{
@@ -309,6 +309,12 @@ fieldset label{
     margin-top: 2em;
     cursor: pointer;
 }
+.cabecalho .fa-bars{
+    color: var(--purple);
+    font-size: 2em;
+    margin-left: 2em;
+    display: none;
+}
 @media screen and (max-width :1200px){
     .campea{
         right: 0;
@@ -335,5 +341,75 @@ fieldset label{
     .sobre .container div{
         width: 55%;
         margin-left: 30px;
+    }
+    .ao_vivo{
+        padding: 5.3em 5px;
+        padding: 0px 5px;
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .em_breve{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    .em_breve .partida{
+        margin: 0.5em 0;
+    }
+    /* Seção Notícias */
+    .noticias{
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        width: 100%;
+    }
+    .card img{
+        width: 30%;
+    }
+    footer .container{
+        padding-top: 0.3em;
+        width: 94%;
+    }
+    .mob_logo_sociais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mob_logo_sociais img{
+        max-width: 180px;
+    }
+}/*max 768px */
+@media screen and (max-width: 460px){
+    .cabecalho .fa-bars{
+        display: block;
+    }
+    .cabecalho div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 2em;
+    }
+    #menu{
+        position: absolute;
+        top: 72px;
+        background-color: #1e1c21;
+        width: 100%;
+        display: none;
+    }
+    .cabecalho ul{
+        /* background-color: red; */
+        flex-direction: column;
+        height: 250px;
+    }
+    .cabecalho ul a{
+        padding: 0.5em 100% 0.5em 0.5em;
+        margin: 0.1em 0;
+        margin-left: 2em;
+    }
+    /* ocultar a campeã no mobile  */
+    .campea{
+        display: none;
     }
 }

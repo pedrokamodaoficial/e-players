@@ -15,10 +15,15 @@
 
     <header>
         <div class="container cabecalho">
-            <a href="index.html">
-                <img src="img/Logo.svg" alt="Logo site E-Players">
-            </a>
-            <nav>
+            <div>
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html">
+                    <img src="img/Logo.svg" alt="Logo site E-Players">
+                </a>
+            </div>
+            <nav id="menu">
                 <ul>
                     <li><a href="index.html" title="Ir até a página inícial">INÍCIO</a></li>
                     <li><a href="#horarios" title="Ir até a sessão de HORARIOS">HORARIOS</a></li>
@@ -96,45 +101,57 @@
             <section class="noticias">
                 <div class="card">
                     <img src="img/Teams/T1.jpeg" alt="Noticia sobre assunto 1">
-                    <h4>Título da Notícia</h4>
-                    <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
-                        2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
-                        45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
-                </div>
+                    <div>
+                        <h4>Título da Notícia</h4>
+                        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
+                            2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
+                            45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                        </div>
+                        </div>
                 <div class="card">
                     <img src="img/Teams/T2.jpg" alt="Noticia sobre assunto 1">
-                    <h4>Título da Notícia</h4>
-                    <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
-                        2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
-                        45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia.</p>
+                    <div>
+                        <h4>Título da Notícia</h4>
+                        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
+                            2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
+                            45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                        </div>
                 </div>
                 <div class="card">
                     <img src="img/Teams/T3.jpeg" alt="Noticia sobre assunto 1">
-                    <h4>Título da Notícia</h4>
-                    <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
-                        2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
-                        45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                    <div>
+                        <h4>Título da Notícia</h4>
+                        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
+                            2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
+                            45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                        </div>
                 </div>
                 <div class="card">
                     <img src="img/Teams/T5.jpeg" alt="Noticia sobre assunto 1">
-                    <h4>Título da Notícia</h4>
-                    <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
-                        2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
-                        45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                    <div>
+                        <h4>Título da Notícia</h4>
+                        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
+                            2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
+                            45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                        </div>
                 </div>
                 <div class="card">
                     <img src="img/Teams/T7.jpeg" alt="Noticia sobre assunto 1">
-                    <h4>Título da Notícia</h4>
-                    <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
-                        2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
-                        45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                    <div>
+                        <h4>Título da Notícia</h4>
+                        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
+                            2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
+                            45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                        </div>
                 </div>
                 <div class="card">
                     <img src="img/Teams/T10.jpg" alt="Noticia sobre assunto 1">
-                    <h4>Título da Notícia</h4>
-                    <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
-                        2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
-                        45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                    <div>
+                        <h4>Título da Notícia</h4>
+                        <p>Ao contrário do que se acredita, Lorem Ipsum não é simplesmente um texto randômico. Com mais de
+                            2000 anos, suas raízes podem ser encontradas em uma obra de literatura latina clássica datada de
+                            45 AC. Richard McClintock, um professor de latim do Hampden-Sydney College na Virginia</p>
+                        </div>
                 </div>
             </section>
             <section class="recentes" id="resultados">
@@ -303,7 +320,17 @@
         </div>
         <p>© 2077 SENAI Eletronic Sports - Todos os direitos reservados</p>
     </footer>
+      <script>
 
+          function botaoMenu(){
+              var m = document.getElementById("menu");
+              if(m.style.display == "block"){
+                  m.style.display = "none";
+              }else{
+                  m.style.display = "block"
+              }
+          }
+      </script>
 </body>
 
 </html>
